@@ -2,6 +2,7 @@
 
 
 int main(){
+    
 
 	constexpr int SOME_LIB_MAJOR_VERSION {1237};
 	
