@@ -69,8 +69,9 @@ int main(){
     int int_data {56};
     p_int2 = &int_data;
 
-    std::cout << "value : " << *p_int2 << std::endl; // Dereferencing a pointer
-
+    std::cout << "value of *p_int2: " << *p_int2 << std::endl; // Dereferencing a pointer
+    std::cout << "value of p_int2 : " << p_int2 << std::endl;
+    std::cout << "value of &int_data : " << &int_data << std::endl;
 
     return 0;
 }
