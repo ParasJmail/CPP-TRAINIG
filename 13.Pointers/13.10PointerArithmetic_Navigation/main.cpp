@@ -121,7 +121,6 @@ int main(){
         std::cout <<"Value : "<< scores[i] << std::endl;
     }
 	
-	
    
     return 0;
 }
